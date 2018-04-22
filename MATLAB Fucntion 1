@@ -1,0 +1,5 @@
+function y = rgbg(u,c)
+u1=rgb2gray(u);
+ u2=u(:,:,c);
+ u3=u2-u1;
+y=u3;
